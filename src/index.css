@@ -2,4 +2,19 @@ body {
   margin: 0;
   padding: 0;
   font-family: sans-serif;
+    background-color: #606060 !important;
+}
+
+.react-grid-HeaderCell-sortable {
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow:hidden;
+    width:100%;
+    display:block;
+    padding-right: 20px;
+}
+.no-overflow .react-grid-Cell__value div{
+    text-overflow: ellipsis ;
+    overflow: hidden ;
+    white-space: nowrap;
 }
